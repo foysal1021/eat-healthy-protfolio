@@ -12,6 +12,7 @@ body {
     width: 90%;
     margin: auto;
     height: 100vh;
+    overflow: hidden;
 }
 
 .header-wraper {
@@ -36,12 +37,13 @@ body {
 
 .header-contaner-center h1 {
     font-size: 60px;
+    padding-bottom: 20px;
 }
 
 .header-contaner-center p {
     font-size: 20px;
     color: rgb(70 70 70);
-    padding-bottom: 20px;
+    padding-bottom: 35px;
 }
 
 .header-img img {
@@ -60,4 +62,52 @@ a.order-lnk {
 
 .header-contaner-center h1 span {
     color: #fd5733;
+}
+
+section.about {
+    width: 90%;
+    margin: auto;
+    background-image: url(img/7.png);
+}
+
+.about-wraper {
+    display: flex;
+}
+
+.about-img {
+    width: 50%;
+    text-align: center;
+}
+
+.about-content {
+    width: 50%;
+    position: relative;
+}
+
+.about-img img {
+    width: 35%;
+}
+
+.about-content-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about-content-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about-content-center h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+.about-content-center p {
+    width: 74%;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px 0px;
 }
