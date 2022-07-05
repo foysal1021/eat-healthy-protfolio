@@ -1,11 +1,10 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-
+    font-family: Roboto, sans-serif;
 }
 
 .header {
@@ -42,7 +41,7 @@ body {
 
 .header-contaner-center p {
     font-size: 20px;
-    color: rgb(70 70 70);
+    color: rgb(70, 70, 70);
     padding-bottom: 35px;
 }
 
@@ -55,19 +54,19 @@ a.order-lnk {
     text-decoration: none;
     color: black;
     text-transform: capitalize;
-    background-image: linear-gradient(45deg, #fd5733, #fb944a);
+    background-image: linear-gradient(45deg, rgb(253, 87, 51), rgb(251, 148, 74));
     padding: 10px 20px;
     border-radius: 10px;
 }
 
 .header-contaner-center h1 span {
-    color: #fd5733;
+    color: rgb(253, 87, 51);
 }
 
 section.about {
     width: 90%;
     margin: auto;
-    background-image: url(img/7.png);
+    background-image: url("img/7.png");
 }
 
 .about-wraper {
@@ -109,13 +108,12 @@ section.about {
     width: 74%;
     text-align: left;
     font-size: 20px;
-    padding: 20px 0px;
-    padding-bottom: 45px;
+    padding: 20px 0px 45px;
 }
 
 a.contact-link {
     text-decoration: none;
-    background-image: linear-gradient(45deg, #fd5733, #fb944a);
+    background-image: linear-gradient(45deg, rgb(253, 87, 51), rgb(251, 148, 74));
     padding: 10px 20px;
     font-size: 20px;
     color: black;
@@ -154,7 +152,7 @@ section.our-recipies {
 .recipies-img-1 {
     width: 40%;
     margin-right: 5%;
-    background: #e9e9e9;
+    background: rgb(233, 233, 233);
     text-align: center;
     border-radius: 15px;
     padding: 2% 0%;
@@ -184,13 +182,13 @@ section.our-recipies {
 
 .recipies-img-1 h1 {
     font-size: 30px;
-    color: #93230b;
+    color: rgb(147, 35, 11);
     margin-left: 55px;
 }
 
 .recipies-img-1 h1 {
     font-size: 30px;
-    color: #93230b;
+    color: rgb(147, 35, 11);
     margin-left: 10%;
 }
 
@@ -202,13 +200,12 @@ section.our-recipies {
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-
+    font-family: Roboto, sans-serif;
 }
 
 .header {
@@ -245,7 +242,7 @@ body {
 
 .header-contaner-center p {
     font-size: 20px;
-    color: rgb(70 70 70);
+    color: rgb(70, 70, 70);
     padding-bottom: 35px;
 }
 
@@ -258,20 +255,20 @@ a.order-lnk {
     text-decoration: none;
     color: black;
     text-transform: capitalize;
-    background-image: linear-gradient(45deg, #fd5733, #fb944a);
+    background-image: linear-gradient(45deg, rgb(253, 87, 51), rgb(251, 148, 74));
     padding: 10px 20px;
     border-radius: 10px;
 }
 
 .header-contaner-center h1 span {
-    color: #fd5733;
+    color: rgb(253, 87, 51);
 }
 
 section.about {
     width: 90%;
     margin: auto;
-    background-image: url(img/7.png);
-    padding: 0% 0%;
+    background-image: url("img/7.png");
+    padding: 0%;
 }
 
 .about-wraper {
@@ -313,13 +310,12 @@ section.about {
     width: 74%;
     text-align: left;
     font-size: 20px;
-    padding: 20px 0px;
-    padding-bottom: 45px;
+    padding: 20px 0px 45px;
 }
 
 a.contact-link {
     text-decoration: none;
-    background-image: linear-gradient(45deg, #fd5733, #fb944a);
+    background-image: linear-gradient(45deg, rgb(253, 87, 51), rgb(251, 148, 74));
     padding: 10px 20px;
     font-size: 20px;
     color: black;
@@ -341,10 +337,9 @@ a.contact-link {
 .taitle p {
     width: 46%;
     text-align: center;
-    margin: auto;
+    margin: 2% auto auto;
     line-height: 155%;
     font-size: 20px;
-    margin-top: 2%;
 }
 
 .our-iteam {
@@ -354,10 +349,10 @@ a.contact-link {
 
 .item-about-1 {
     width: 47%;
-    background-color: rgb(255 255 255);
+    background-color: rgb(255, 255, 255);
     margin-right: 3%;
     border-radius: 2%;
-    box-shadow: 1px 1px 11px;
+    box-shadow: 1px 1px 11px #c3c3c3;
     padding: 3% 0%;
 }
 
@@ -366,7 +361,7 @@ a.contact-link {
     background-color: rgb(255, 255, 255);
     margin-left: 3%;
     border-radius: 2%;
-    box-shadow: 1px 1px 11px;
+    box-shadow: 1px 1px 11px #9f9f9f;
     padding: 3% 0%;
 }
 
@@ -395,9 +390,49 @@ a.contact-link {
 
 section.our-subscriber {
     width: 90%;
-    margin: auto;
+    margin: auto auto 5%;
+    background: white;
+    box-shadow: 0px 0px 7px #919191;
+    border-radius: 1%;
+    padding: 5% 0%;
 }
 
 .subscriber-wraper {
     display: flex;
+}
+
+.youtub {
+    width: 33%;
+    position: relative;
+}
+
+.instagrm {
+    width: 33%;
+    position: relative;
+}
+
+.Dribbble {
+    width: 33%;
+    position: relative;
+}
+
+.youtub-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.instagrm-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Dribbble-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
