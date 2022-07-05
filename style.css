@@ -436,3 +436,25 @@ section.our-subscriber {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+section.footer {
+    width: 100%;
+    background: #0b0d17;
+    padding: 5% 0%;
+}
+
+.footer-wraper {
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.footer-wraper h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.footer-wraper h1 span {
+    color: rgb(253, 87, 51);
+}
