@@ -458,3 +458,9 @@ section.footer {
 .footer-wraper h1 span {
     color: rgb(253, 87, 51);
 }
+
+.footer-wraper p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+}
