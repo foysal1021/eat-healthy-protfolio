@@ -110,6 +110,7 @@ section.about {
     text-align: left;
     font-size: 20px;
     padding: 20px 0px;
+    padding-bottom: 45px;
 }
 
 a.contact-link {
@@ -120,4 +121,24 @@ a.contact-link {
     color: black;
     text-transform: capitalize;
     border-radius: 5px;
+}
+
+section.our-recipies {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.our-recipies-content h1 {
+    font-size: 35px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.our-recipies-content p {
+    width: 47%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    padding: 18px 0px;
 }
