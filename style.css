@@ -126,7 +126,7 @@ a.contact-link {
 section.our-recipies {
     width: 90%;
     margin: auto;
-    padding: 20px 0px;
+    padding: 100px 0px;
 }
 
 .our-recipies-content h1 {
@@ -141,4 +141,263 @@ section.our-recipies {
     margin: auto;
     font-size: 20px;
     padding: 18px 0px;
+}
+
+.our-recipies-content {
+    padding-bottom: 5%;
+}
+
+.recipies-imgs {
+    display: flex;
+}
+
+.recipies-img-1 {
+    width: 40%;
+    margin-right: 5%;
+    background: #e9e9e9;
+    text-align: center;
+    border-radius: 15px;
+    padding: 2% 0%;
+}
+
+.recipies-img-1 img {
+    width: 80%;
+    border-radius: 26px;
+}
+
+.recipies-img-2 {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.recipies-img-2 img {
+    width: 80%;
+}
+
+.recipies-img-1 h1 {
+    text-align: left;
+}
+
+.recipies-img-1 p {
+    text-align: left;
+}
+
+.recipies-img-1 h1 {
+    font-size: 30px;
+    color: #93230b;
+    margin-left: 55px;
+}
+
+.recipies-img-1 h1 {
+    font-size: 30px;
+    color: #93230b;
+    margin-left: 10%;
+}
+
+.recipies-img-1 p {
+    margin-left: 10%;
+    width: 70%;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-wraper {
+    display: flex;
+}
+
+.header-contaner {
+    width: 50%;
+    position: relative;
+}
+
+.header-img {
+    width: 50%;
+    text-align: center;
+}
+
+.header-contaner-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-contaner-center h1 {
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.header-contaner-center p {
+    font-size: 20px;
+    color: rgb(70 70 70);
+    padding-bottom: 35px;
+}
+
+.header-img img {
+    width: 90%;
+}
+
+a.order-lnk {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    background-image: linear-gradient(45deg, #fd5733, #fb944a);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.header-contaner-center h1 span {
+    color: #fd5733;
+}
+
+section.about {
+    width: 90%;
+    margin: auto;
+    background-image: url(img/7.png);
+    padding: 0% 0%;
+}
+
+.about-wraper {
+    display: flex;
+}
+
+.about-img {
+    width: 50%;
+    text-align: center;
+}
+
+.about-content {
+    width: 50%;
+    position: relative;
+}
+
+.about-img img {
+    width: 35%;
+}
+
+.about-content-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about-content-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about-content-center h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+.about-content-center p {
+    width: 74%;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px 0px;
+    padding-bottom: 45px;
+}
+
+a.contact-link {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #fd5733, #fb944a);
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+.our-recipies {
+    padding: 5% 0%;
+    width: 90%;
+    margin: auto;
+}
+
+.taitle h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.taitle p {
+    width: 46%;
+    text-align: center;
+    margin: auto;
+    line-height: 155%;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.our-iteam {
+    display: flex;
+    margin-top: 5%;
+}
+
+.item-about-1 {
+    width: 47%;
+    background-color: rgb(255 255 255);
+    margin-right: 3%;
+    border-radius: 2%;
+    box-shadow: 1px 1px 11px;
+    padding: 3% 0%;
+}
+
+.item-about-2 {
+    width: 47%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 3%;
+    border-radius: 2%;
+    box-shadow: 1px 1px 11px;
+    padding: 3% 0%;
+}
+
+.item-img {
+    width: 100%;
+    text-align: center;
+}
+
+.item-img img {
+    width: 80%;
+    border-radius: 7%;
+}
+
+.item-description h1 {
+    font-size: 30px;
+    margin-left: 10%;
+    padding: 3% 0%;
+}
+
+.item-description p {
+    margin-left: 10%;
+    width: 80%;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+section.our-subscriber {
+    width: 90%;
+    margin: auto;
+}
+
+.subscriber-wraper {
+    display: flex;
 }
